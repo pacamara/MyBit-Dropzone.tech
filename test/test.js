@@ -6,6 +6,11 @@ const owner = web3.eth.accounts[0];
 const recipientsEqual = [web3.eth.accounts[1], web3.eth.accounts[2], web3.eth.accounts[3]];
 const recipientsVaried = [web3.eth.accounts[4], web3.eth.accounts[5], web3.eth.accounts[6]];
 
+
+console.log("==================================");
+console.log("recipientsEqual = " + recipientsEqual);
+console.log("==================================");
+
 const supply = 100000;
 const tokenPerAccount = 50;
 const tokensVaried = [100, 200, 300];
